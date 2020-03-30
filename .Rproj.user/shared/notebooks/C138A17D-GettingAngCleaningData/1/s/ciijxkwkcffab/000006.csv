@@ -1,0 +1,30 @@
+"0","library(xlsx)"
+"0","file2Url <- ""https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx """
+"0","download.file(file2Url, destfile = ""./data/gasdata.xlsx"", method = ""curl"")"
+"2","  % Total    % Re"
+"2","ceived % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+"2","  0     0    0   "
+"2","  0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+"2","  0    "
+"2"," 0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0"
+"2","  0     0  "
+"2","  0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0"
+"2","100 16197  100 16197  "
+"2","  0     0   6541      0  0:00:02  0:00:02 --:--:--  6538
+"
+"0","dat <- read.xlsx(""./data/gasdata.xlsx"", sheetIndex = 1, rowIndex = 18:23, colIndex = 7:15)"
+"2","WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.poi.util.SAXHelper (file:/home/maduabuchi/R/x86_64-pc-linux-gnu-library/3.6/xlsxjars/java/poi-ooxml-3.10.1-20140818.jar) to method com.sun.org.apache.xerces.internal.util.SecurityManager.setEntityExpansionLimit(int)
+WARNING: Please consider reporting this to the maintainers of org.apache.poi.util.SAXHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access ope"
+"2","rations
+WARNING: All illegal access operations will be denied in a future release"
+"2","
+"
+"0","sum(dat$Zip*dat$Ext,na.rm=T)"
+"1","[1]"
+"1"," 36534720"
+"1","
+"

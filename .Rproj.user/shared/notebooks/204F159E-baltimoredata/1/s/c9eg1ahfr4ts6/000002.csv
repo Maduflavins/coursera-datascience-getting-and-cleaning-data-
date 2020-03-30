@@ -1,0 +1,19 @@
+"0","fileUrl <- ""https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"""
+"0","download.file(fileUrl, destfile = ""./data/cameras.csv"", method = ""curl"")"
+"2","  % Total    % Recei"
+"2","ved % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+"2","  0     0    0     "
+"2","0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+"2","  0     0    0     0    0     0      0      0 --:"
+"2","--:--  0:00:01 --:--:--     0"
+"2","100  9927    0  992"
+"2","7    0     0   3587      0 --:--:--  0:00:02 --:--:--  3586100  9927    0  9927    0     0   3586      0 --:--:"
+"2","--  0:00:02 --:--:--  3586
+"
+"0","list.files(""./data"")"
+"1","[1]"
+"1"," ""cameras.csv"""
+"1","
+"

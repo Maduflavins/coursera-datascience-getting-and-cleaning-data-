@@ -1,0 +1,5 @@
+"0","sum(housing$VAL==24 & !is.na(housing$VAL))"
+"1","[1]"
+"1"," 53"
+"1","
+"

@@ -1,0 +1,21 @@
+"0","fileUrl <- ""https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv"""
+"0","if(!dir.exists(""data"")){"
+"0","  dir.create(""data"")"
+"0","}"
+"0","download.file(fileUrl, destfile = ""./data/housing.csv"", method = ""curl"")"
+"2","  % Total    % Rece"
+"2","ived % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0"
+"2","    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+"2","  0     0  "
+"2","  0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0"
+"2","  0 4147k "
+"2","   0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0"
+"2"," 10 4147k   10  420k    0     0   201k      0  0:00:20  0:00:02  0:00:18  201k"
+"2"," 79 4147k   "
+"2","79 3303k    0     0  1043k      0  0:00:03  0:00:03 --:--:-- 1043k"
+"2","100 4147k  100 414"
+"2","7k    0     0  1306k      0  0:00:03  0:00:03 --:--:-- 1306k
+"
+"0","housing <- read.csv(""./data/housing.csv"")"

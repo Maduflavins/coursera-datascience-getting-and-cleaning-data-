@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585433573172.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "DCB32CF4",
+    "lastKnownWriteTime" : 1585522555,
+    "last_content_update" : 1585522555692,
+    "path" : "~/workspace/crda/baltimore/baltimoredata.Rmd",
+    "project_path" : "baltimoredata.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "112,19",
+        "scrollLine" : "107",
+        "tempName" : "Untitled2"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

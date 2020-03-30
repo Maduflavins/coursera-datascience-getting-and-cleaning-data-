@@ -1,0 +1,3 @@
+"0","system.time(rowMeans(DT)[DT$SEX==1])+system.time(rowMeans(DT)[DT$SEX==2])"
+"2","Error in rowMeans(DT) : 'x' must be numeric
+"

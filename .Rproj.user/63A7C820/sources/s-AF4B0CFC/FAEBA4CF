@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1585522568808.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3554833827",
+    "id" : "FAEBA4CF",
+    "lastKnownWriteTime" : 1585527666,
+    "last_content_update" : 1585527666441,
+    "path" : "~/workspace/crda/baltimore/GettingAngCleaningData.Rmd",
+    "project_path" : "GettingAngCleaningData.Rmd",
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "116,73",
+        "scrollLine" : "107",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

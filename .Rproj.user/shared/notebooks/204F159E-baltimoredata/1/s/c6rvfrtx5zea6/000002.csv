@@ -1,0 +1,1 @@
+"0","cameraData <- read.table(""./data/cameras.csv"", sep="","", header = TRUE)"
